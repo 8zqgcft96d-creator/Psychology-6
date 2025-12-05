@@ -5,6 +5,31 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>我的心理測驗</title>
 
+  <!-- 封面 -->
+<div id="cover">
+  <h1>心理測驗</h1>
+  <p>找出你在故事中的角色</p>
+  <button id="startBtn">開始測驗</button>
+</div>
+
+<!-- 測驗界面 -->
+<div id="quiz"></div>
+
+<!-- 結果 -->
+<div id="result">
+  <h2>測驗結果</h2>
+  <canvas id="radarChart" width="350" height="350"></canvas><br>
+  <button id="downloadBtn">下載結果圖</button>
+  <button id="restartBtn">重新測驗</button>
+  <div id="analysis"></div>
+</div>
+
+<!-- JS 主程式 -->
+<script src="script.js"></script>
+
+</body>
+</html>
+
 <!-- 標楷體 + 淺灰背景 -->
 <style>
   body {
@@ -139,27 +164,3 @@
 </head>
 <body>
 
-<!-- 封面 -->
-<div id="cover">
-  <h1>心理測驗</h1>
-  <p>找出你在故事中的角色</p>
-  <button id="startBtn">開始測驗</button>
-</div>
-
-<!-- 測驗界面 -->
-<div id="quiz"></div>
-
-<!-- 結果 -->
-<div id="result">
-  <h2>測驗結果</h2>
-  <canvas id="radarChart" width="350" height="350"></canvas><br>
-  <button id="downloadBtn">下載結果圖</button>
-  <button id="restartBtn">重新測驗</button>
-  <div id="analysis"></div>
-</div>
-
-<!-- JS 主程式 -->
-<script src="script.js"></script>
-
-</body>
-</html>
